@@ -1,0 +1,27 @@
+CREATE TABLE alumnos (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    nombre VARCHAR(20) NOT NULL,
+    apellidos VARCHAR(20) NOT NULL,
+    email VARCHAR(30) NOT NULL UNIQUE
+);
+
+CREATE TABLE profesores(
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    nombre VARCHAR(20) NOT NULL,
+    apellidos VARCHAR(20) NOT NULL,
+    especialidad VARCHAR(30)
+);
+
+CREATE TABLE cursos(
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    nombre_curso VARCHAR(25) NOT NULL,
+    horas_curso INT NOT NULL,
+    FOREIGN KEY (profesores_id) REFERENCES profesores(id) ON DELETE SET NULL
+);
+
+CREATE TABLE matriculas(
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    nombre_matriculas VARCHAR(30) NOT NULL,
+    FOREIGN KEY (alumnos_id) REFERENCES (alumnos) ON DELETE CASCADE,
+    FOREIGN KEY (cursos_id) REFERENCES (cursos) ON DELETE CASCADE
+);
