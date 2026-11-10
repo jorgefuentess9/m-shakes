@@ -1,3 +1,18 @@
+# PostgreSQL persistencia local de Docker
 postgres/
+Proyecto BBDD/postgres/
+
+# pgAdmin datos y sesiones locales
 pgadmin/
+Proyecto BBDD/pgadmin/
+
+# Archivos del sistema operativo
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
