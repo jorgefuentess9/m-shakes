@@ -13,7 +13,7 @@ Desarrollada sobre **PostgreSQL 15.3** y administrada mediante **pgAdmin 4**, or
 
 ## 👥 Autores y Contexto Académico
 
-* **Autores:** Jorge Fuentes Aguilar ([@jorgefuentess9](https://github.com/jorgefuentess9)) y Carlos Medina Augusto
+* **Autores:** Jorge Fuentes Aguilar ([@jorgefuentess9](https://github.com/jorgefuentess9)) y Carlos Medina Augusto ([@carlosmedinaa](https://github.com/carlosmedinaa))
 * **Estudios:** 1º de Desarrollo de Aplicaciones Multiplataforma (DAM)
 * **Asignatura:** Bases de Datos (BBDD)
 * **Tecnologías:** PostgreSQL 15.3, Docker, Docker Compose, pgAdmin 4, SQL
