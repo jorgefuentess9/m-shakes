@@ -170,6 +170,6 @@ m-shakes/
     ├── consultas.sql                              # Consultas analíticas y reportes de negocio (DQL)
     ├── selectTablas.sql                           # Comprobaciones rápidas de datos
     ├── ejerciciosTablas.sql                       # Ejercicios y pruebas sobre tablas
-    ├── backup_proyectobbdd_tiendaonline.sql       # Respaldo completo de la base de datos
-    └── documentacionProyecto.md                   # Documentación técnica extendida
+    └── backup_proyectobbdd_tiendaonline.sql       # Respaldo completo de la base de datos
 ```
+
